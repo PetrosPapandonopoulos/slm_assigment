@@ -1,0 +1,120 @@
+/* Styling for the body */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    background-color: #f2f2f2;
+  }
+  
+  /* Styling for the h1 */
+  h1 {
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 10px;
+  }
+  
+  /* Styling for the p */
+  p {
+    text-align: center;
+    margin-top: 20px;
+  }
+  
+  /* Styling for the select */
+  select {
+    display: block;
+    margin: 0 auto;
+    margin-top: 10px;
+    padding: 10px;
+    width: 200px;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+
+  /* style the dropdown arrow */
+  select:after {
+    content: "\25BC";
+    font-size: 16px;
+    color: #555;
+    position: absolute;
+    top: 50%;
+    right: 10px;
+    transform: translateY(-50%);
+  }
+
+  /* style the dropdown options */
+  select option {
+    font-size: 16px;
+    color: #555;
+  }
+  
+  /* Styling for the ul */
+  ul {
+    list-style-type: none;
+    text-align: center;
+    padding: 0;
+    margin: 20px auto;
+    width: fit-content;
+  }
+  
+  /* Styling for the li */
+  li {
+    background-color: #fff;
+    border: 1px solid #ccc;
+    padding: 10px 20px;
+    margin-bottom: 10px;
+    box-sizing: border-box;
+    text-align: left;
+    list-style-type: none;
+    margin-bottom: 10px;
+  }
+  
+  /* Styling for the label */
+  label {
+    display: block;
+    text-align: center;
+    margin-top: 20px;
+  }
+  
+  /* Styling for the input */
+  input[type=text] {
+    display: block;
+    margin: 0 auto;
+    margin-top: 10px;
+    padding: 10px;
+    width: 200px;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+  
+  /* Styling for the button */
+  button {
+    display: block;
+    margin: 0 auto;
+    margin-top: 10px;
+    padding: 10px;
+    width: 100px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+
+  button:last-of-type {
+    display: block;
+    margin: 0 auto;
+    margin-top: 10px;
+    padding: 5px 8px;
+    width: 80px;
+    background-color: #f44336;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 12px;
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+  }

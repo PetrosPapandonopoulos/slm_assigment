@@ -1,0 +1,30 @@
+<html>
+
+    <head>
+        <link rel="stylesheet" type="text/css" href="styles.css">
+    </head>
+
+    <body onload="onLoadDriversNames();">
+        
+        <h1>Warehouse packages</h1>
+
+        <p>Select a driver:</p>
+
+        <select id="drivers" name="drivers" onchange="onDriverSelect();">
+            <option value=-1>-</option>
+        </select>
+
+        <ul id="packages"></ul>
+
+        <label for="name">Enter voucher:</label>
+
+        <input type="text" id="voucherInput" name="voucherInput"><br><br>
+
+        <button type="Scan" onclick="scanPackage();">Scan</button>
+
+        <button type="Reset" onclick="resetStates();">Reset</button>
+
+        <script src="index.js"></script>
+    </body>
+
+</html>
